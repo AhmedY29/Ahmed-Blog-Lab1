@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Global */
+*{
+    font-family: "Work Sans", sans-serif;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+/* == Global == */
+
+/* Header */
+header{
+    background-color: rgb(100, 100, 249);
+    padding: 2em;
+    color: white;
+    
+}
+
+/* NAV */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+}
+
+nav div {
+    display: flex;
+    gap: 1em;
+}
+
+nav div ul {
+    display: flex;
+    gap: 1.3em;
+    list-style: none;
+}
+
+nav div button{
+    background-color: rgb(255, 255, 255, 0.3);
+    color: white;
+    border: 1px #fff solid;
+    border-radius: 10px;
+    width: 8em;
+    
+}
+
+/* == NAV == */
+
+/* Hero */
+.hero  {
+    display: flex;
+    align-items: center;
+    padding: 8% 0;
+    gap: 5%;
+}
+.hero .hero-form  {
+    width: 100%;
+}
+.hero .hero-form h1,h5 {
+    margin: 0;
+}
+.hero .hero-form h1 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+
+.hero .hero-form form {
+    background-color: #fff;
+    width: max-content;
+    padding: 1%;
+    border-radius: 5px;
+}
+.hero .hero-form form input{
+    border-radius: 5px;
+    height: 4vh;
+    border: none;
+}
+.hero .hero-form form input[type="submit"] {
+    background-color: rgb(100, 100, 249);
+    color: white;
+}
+
+/* == Hero == */
+
+/* == Header == */
+
+
+/* Products */
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+}
+
+.products .box{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: 30%;
+    padding: 1%;
+    
+    transition: 0.3s;
+}
+.products .box:hover{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.3);
+}
+.products .box img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.products .box h1,p{
+    margin: 0;
+}
+
+.products .box h1{
+    font-size: 1em;
+}
+.products .box p{
+    color: #4b4b4b;
+    font-size: 0.8em;
+    line-height: 1.4;
+}
+.products .box .tags span{
+    font-size: 0.6em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.4%;
+    transition: 0.3s;
+}
+.products .box .tags span:hover{
+    background-color: #cfcccc;
+}
+
+.products .next-btns{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2em;
+    border-top: 1px solid black;
+}
+.products .btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* == Products == */
+
+
+
