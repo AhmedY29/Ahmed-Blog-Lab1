@@ -172,3 +172,16 @@ nav div button{
 
 
 
+/* Footer */
+
+footer{
+    background-color: rgb(100, 100, 249);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    color: white;
+}
+/* == Footer == */
+
+
+
